@@ -45,24 +45,89 @@ $the_mask = new Movie(
 
     <div class="container">
 
+        <!-- CARD TED -->
         <div class="card">
             <figure>
                 <img src="<?php echo $ted->cover ?>" alt="">
             </figure>
+            <div class="wrapper">
+                <h1><?php echo $ted->title ?></h1>
+                <h4>
+                    Trama
+                    <p>
+                        <?php echo $ted->description ?>
+                    </p>
+                </h4>
+                <h4>
+                    Genere
+                    <p>
+                        <?php echo $ted->genre ?>
+                    </p>
+                </h4>
+                <h4>
+                    Lingua originale
+                    <p class="lang">
+                        <?php echo $ted->original_language ?>
+                    </p>
+                </h4>
+            </div>
         </div>
 
+        <!-- CARD GHOST MOVIE -->
         <div class="card">
             <figure>
                 <img src="<?php echo $ghost_movie->cover ?>" alt="">
             </figure>
+            <div class="wrapper">
+                <h1><?php echo $ghost_movie->title ?></h1>
+                <h4>
+                    Trama
+                    <p>
+                        <?php echo $ghost_movie->description ?>
+                    </p>
+                </h4>
+                <h4>
+                    Genere
+                    <p>
+                        <?php echo $ghost_movie->genre ?>
+                    </p>
+                </h4>
+                <h4>
+                    Lingua originale
+                    <p class="lang">
+                        <?php echo $ghost_movie->original_language ?>
+                    </p>
+                </h4>
+            </div>
         </div>
-
+        
+        <!-- CARD THE MASK -->
         <div class="card">
             <figure>
                 <img src="<?php echo $the_mask->cover ?>" alt="">
             </figure>
+            <div class="wrapper">
+                <h1><?php echo $the_mask->title ?></h1>
+                <h4>
+                    Trama
+                    <p>
+                        <?php echo $the_mask->description ?>
+                    </p>
+                </h4>
+                <h4>
+                    Genere
+                    <p>
+                        <?php echo $the_mask->genre ?>
+                    </p>
+                </h4>
+                <h4>
+                    Lingua originale
+                    <p class="lang">
+                        <?php echo $the_mask->original_language ?>
+                    </p>
+                </h4>
+            </div>
         </div>
-
     </div>
 
 </body>
